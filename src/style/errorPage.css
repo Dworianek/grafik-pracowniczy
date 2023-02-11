@@ -1,0 +1,40 @@
+.errorMain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 100px 0 100px;
+  min-height: 60vh;
+}
+
+.rightPanelSide {
+  text-align: center;
+}
+
+.homeButton {
+  appearance: none;
+  background-color: #2e42a4;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 220px;
+  min-height: 50px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+}
+.homeButton:hover {
+  background-color: #1d329b;
+}
+
+.homeButton a {
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}

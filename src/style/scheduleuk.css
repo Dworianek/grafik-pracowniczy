@@ -1,0 +1,142 @@
+th, td {
+  min-width: 60px;
+  text-align: center;
+}
+.formMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 100px 50px 100px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.formMain h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.inputRow1 {
+  display: flex;
+  gap: 60px;
+}
+.inputRow2 {
+  display: flex;
+  gap: 60px;
+}
+.trashIcon {
+  transition: transform 0.5s;
+}
+.trashIcon:hover {
+  transform: translate(0px, -3px);
+}
+input[type="text"], input[type="number"], select {
+  color: rgb(42, 35, 35);
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 220px;
+  min-height: 28px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+  background: rgb(251, 251, 251);
+  transition: 0.4s;
+}
+input:focus {
+  border: 2px solid rgb(20, 17, 32) !important;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.addWorkerButton {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 220px;
+  min-height: 50px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+}
+.addWorkerButton:hover {
+  background-color: #2c974b;
+}
+.validation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.validation span {
+  color: red;
+  font-size: 10px;
+}
+.adminPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+  margin: 0 100px 0 100px;
+}
+.UkWorkers{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.UkStat{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items:center;
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  min-width: 150px;
+  min-height: 150px;
+  border-radius:10px;
+  transition: 0.8s;
+  margin: 20px;
+}
+.UkStat:hover{
+  opacity: 0.9;
+  transform: translateY(-5px);
+}
+.WorkerStat p{
+  font-size: 60px;
+  font-weight: 600;
+  color:white;
+}
+.WorkerStat h3{
+  font-size: 25px;
+  font-weight: 400;
+  color:white;
+}
+.PlWorkers{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.PlStat{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items:center;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  min-width: 150px !important;
+  min-height: 150px !important;
+  border-radius:10px;
+  transition: 0.8s;
+  margin: 20px;
+}
+.PlStat:hover{
+  opacity: 0.9;
+  transform: translateY(-5px);
+}

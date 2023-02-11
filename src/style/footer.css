@@ -1,0 +1,9 @@
+.footerMain {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  height: 40px;
+}
