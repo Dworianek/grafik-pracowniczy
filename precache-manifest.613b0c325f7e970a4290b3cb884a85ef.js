@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "10ab979a16757dede580",
-    "url": "/grafik-pracowniczy/static/css/main.bcdad851.chunk.css"
+    "revision": "1231343e32d9006c66bd",
+    "url": "/grafik-pracowniczy/static/css/main.7ea2d96e.chunk.css"
   },
   {
-    "revision": "10ab979a16757dede580",
-    "url": "/grafik-pracowniczy/static/js/main.10ab979a.chunk.js"
+    "revision": "1231343e32d9006c66bd",
+    "url": "/grafik-pracowniczy/static/js/main.1231343e.chunk.js"
   },
   {
     "revision": "d0c3a5584a9aa3deefa1",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/grafik-pracowniczy/static/media/homepage.0bae4bc0.png"
   },
   {
-    "revision": "6d5a9f47416c30cfd60d59f8c7bf6b0a",
+    "revision": "89e182907191d4b548151d776e4362ef",
     "url": "/grafik-pracowniczy/index.html"
   }
 ];
