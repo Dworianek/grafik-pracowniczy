@@ -1,10 +1,9 @@
 .navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 5px 15px 5px;
+  max-width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  background: rgb(33, 158, 188);
   background: linear-gradient(
     90deg,
     rgba(33, 158, 188, 1) 50%,
@@ -20,13 +19,14 @@
 }
 .navbarAdmin {
   flex-grow: 1;
+  text-align: end;
 }
 
 .navbarMain ul {
   display: flex;
   align-items: center;
   list-style-type: none;
-  gap: 30px;
+  gap: 12px;
 }
 
 .navbarMain ul li a {
@@ -79,7 +79,7 @@
   cursor: pointer;
   font-size: 16px;
   line-height: 20px;
-  min-width: 180px;
+  max-width: 170px;
   min-height: 50px;
   font-weight: 600;
   border-radius: 4px;
@@ -96,7 +96,7 @@ input[type="password"] {
   color: rgb(42, 35, 35);
   font-size: 16px;
   line-height: 20px;
-  min-width: 220px;
+  max-width: 190px;
   min-height: 28px;
   border-radius: 4px;
   padding: 8px 16px;

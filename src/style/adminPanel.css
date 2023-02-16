@@ -1,18 +1,25 @@
 .adminPage {
   min-height: 80%;
+  max-width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
   flex-wrap: wrap-reverse;
-  gap: 0 150px;
+  gap: 0 100px;
+}
+.adminPanelImg img {
+  max-width: 90vw;
+}
+.adminPage h3 {
+  font-size: 25px;
 }
 
 .adminPanelForm {
   display: flex;
   flex-direction: column;
-  min-width: 400px;
+  min-width: 90%;
   gap: 30px;
   justify-content: center;
 }
@@ -27,6 +34,10 @@
 .formElement {
   display: flex;
   flex-direction: column;
+}
+
+.formElement input {
+  min-width: 90%;
 }
 
 .formElement-button {

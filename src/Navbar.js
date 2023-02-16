@@ -72,7 +72,7 @@ class NavBar extends React.Component {
                   }
                 >
                   <MdAdminPanelSettings className="iconNav" />
-                  Panel Administratora
+                  Admin Panel
                 </NavLink>
               </li>
             </ul>

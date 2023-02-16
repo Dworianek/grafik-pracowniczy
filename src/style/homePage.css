@@ -5,10 +5,11 @@
   min-height: 70vh;
   flex-wrap: wrap;
   text-align: center;
+  max-width: 100vw;
 }
 
 .leftSideHomePage h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
 }
 .leftSideHomePage h4 {
@@ -20,6 +21,10 @@
   max-width: 500px;
   text-align: center;
   font-size: 16px;
+}
+
+.rightSideHomePage img {
+  max-width: 95%;
 }
 
 .homePageButton {

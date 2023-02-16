@@ -370,6 +370,16 @@ class ScheduleUK extends React.Component {
                       }
                     </p>
                   </div>
+                  <div className="UkStat WorkerStat">
+                    <h3>Liderek</h3>
+                    <p>
+                      {
+                        this.state.workers.filter(
+                          (worker) => worker.status === "Liderka"
+                        ).length
+                      }
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="formMain">

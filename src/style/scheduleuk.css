@@ -1,4 +1,5 @@
-th, td {
+th,
+td {
   min-width: 60px;
   text-align: center;
 }
@@ -8,22 +9,23 @@ th, td {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 50px 100px 50px 100px;
-  margin-bottom: 50px;
+  padding: 50px 0px 50px 0px;
+  margin-bottom: 20px;
   flex-wrap: wrap;
 }
 .formMain h2 {
   font-weight: 700;
+  font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 .inputRow1 {
   display: flex;
-  gap: 60px;
+  gap: 20px;
 }
 .inputRow2 {
   display: flex;
-  gap: 60px;
+  gap: 20px;
 }
 .trashIcon {
   transition: transform 0.5s;
@@ -31,11 +33,13 @@ th, td {
 .trashIcon:hover {
   transform: translate(0px, -3px);
 }
-input[type="text"], input[type="number"], select {
+input[type="text"],
+input[type="number"],
+select {
   color: rgb(42, 35, 35);
   font-size: 16px;
   line-height: 20px;
-  min-width: 220px;
+  width: 175px;
   min-height: 28px;
   border-radius: 4px;
   padding: 8px 16px;
@@ -85,58 +89,61 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items:center;
-  margin: 0 100px 0 100px;
+  align-items: center;
+  margin: 0 20px 0 20px;
+  flex-wrap: wrap;
 }
-.UkWorkers{
+.UkWorkers {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 15px;
 }
-.UkStat{
+.UkStat {
   display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
-  align-items:center;
+  justify-content: space-evenly;
+  align-items: center;
   background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
-  min-width: 150px;
-  min-height: 150px;
-  border-radius:10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
   transition: 0.8s;
-  margin: 20px;
 }
-.UkStat:hover{
+.UkStat:hover {
   opacity: 0.9;
   transform: translateY(-5px);
 }
-.WorkerStat p{
-  font-size: 60px;
+
+.WorkerStat p {
+  font-size: 50px;
   font-weight: 600;
-  color:white;
+  color: white;
 }
-.WorkerStat h3{
-  font-size: 25px;
+.WorkerStat h3 {
+  font-size: 20px;
   font-weight: 400;
-  color:white;
+  color: white;
+  padding-top: 10px;
 }
-.PlWorkers{
+.PlWorkers {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 15px;
 }
-.PlStat{
+.PlStat {
   display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
-  align-items:center;
+  justify-content: space-evenly;
+  align-items: center;
   background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
-  min-width: 150px !important;
-  min-height: 150px !important;
-  border-radius:10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
   transition: 0.8s;
-  margin: 20px;
 }
-.PlStat:hover{
+.PlStat:hover {
   opacity: 0.9;
   transform: translateY(-5px);
 }
