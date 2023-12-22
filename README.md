@@ -1,5 +1,8 @@
 # Grafik Pracowniczy
 
+## Link do projektu
+https://dworianek.github.io/grafik-pracowniczy/
+
 ## Opis
 
 Repozytorium Grafik Pracowniczy zawiera aplikację umożliwiającą ustalanie grafiku pracowników. Aplikacja oferuje różne funkcje w zależności od uprawnień użytkownika - użytkownik standardowy ma dostęp jedynie do przeglądania grafiku pracowników z różnych krajów, podczas gdy administrator może zarządzać pracownikami, zmianami i innymi aspektami grafiku.
