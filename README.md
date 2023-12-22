@@ -1,4 +1,4 @@
-![image](https://github.com/Dworianek/grafik-pracowniczy/assets/45004601/add16223-2fb6-4a2f-bc1f-e5bce46e8550)# Grafik Pracowniczy
+# Grafik Pracowniczy
 
 ## Opis
 
