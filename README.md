@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+![image](https://github.com/Dworianek/grafik-pracowniczy/assets/45004601/add16223-2fb6-4a2f-bc1f-e5bce46e8550)# Grafik Pracowniczy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Opis
 
-## Available Scripts
+Repozytorium Grafik Pracowniczy zawiera aplikację umożliwiającą ustalanie grafiku pracowników. Aplikacja oferuje różne funkcje w zależności od uprawnień użytkownika - użytkownik standardowy ma dostęp jedynie do przeglądania grafiku pracowników z różnych krajów, podczas gdy administrator może zarządzać pracownikami, zmianami i innymi aspektami grafiku.
 
-In the project directory, you can run:
+![image](https://github.com/Dworianek/grafik-pracowniczy/assets/45004601/d9f331dd-dc53-4c30-be6a-3f9014354248)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funkcje
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Strona Powitalna:** Przejrzysta strona powitalna z menu umożliwiającym wybór opcji.
 
-### `npm test`
+2. **Grafik dla Pracowników z Ukrainy i Polski:** Użytkownik standardowy może przejrzeć grafik dla pracowników z Ukrainy lub Polski.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ![image](https://github.com/Dworianek/grafik-pracowniczy/assets/45004601/0f67ca4c-06fe-4d13-89c9-8d76c26b6e00)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Panel Administratora:** Administrator ma dostęp do panelu administracyjnego, gdzie może zarządzać pracownikami, zmianami, a także przeglądać podsumowania dotyczące liczby pracowników na danej zmianie i danym stanowisku.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Logowanie Administratora:** Panel administratora jest chroniony hasłem i wymaga uwierzytelnienia. Administrator ma również możliwość zmiany swojego hasła.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ![image](https://github.com/Dworianek/grafik-pracowniczy/assets/45004601/00d45fb7-e1e1-4e4e-81f5-73e605dc14d7)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Dodawanie i Usuwanie Pracowników:** Administrator może dodawać nowych pracowników, określając ich imię, nazwisko, numer rcp, stanowisko i zmianę roboczą. Może również usuwać pracowników z grafiku.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/Dworianek/grafik-pracowniczy/assets/45004601/6e12ee89-639f-49da-bcf7-1f99a4d4ef08)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologie
 
-## Learn More
+Aplikacja została stworzona przy użyciu następujących technologii:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Framework JavaScript:** React
+- **Stylizacja:** CSS / Bootstrap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Instrukcje Użytkowania
 
-### Code Splitting
+1. Sklonuj repozytorium na swój lokalny komputer.
+2. Otwórz terminal w katalogu projektu i wykonaj polecenie `npm install` w celu zainstalowania zależności.
+3. Uruchom aplikację za pomocą polecenia `npm start`.
+4. Zaloguj się na konto administratora, aby uzyskać pełen dostęp do funkcji zarządzania grafikiem pracowniczym.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Autor
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Adrian Dworak
